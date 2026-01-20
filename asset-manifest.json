@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/APPy-family/static/css/main.791a4be0.css",
-    "main.js": "/APPy-family/static/js/main.956f637d.js",
-    "static/js/787.e1233e2d.chunk.js": "/APPy-family/static/js/787.e1233e2d.chunk.js",
+    "main.css": "/APPy-family/static/css/main.c0da0b06.css",
+    "main.js": "/APPy-family/static/js/main.3d384586.js",
+    "static/js/787.42a630e5.chunk.js": "/APPy-family/static/js/787.42a630e5.chunk.js",
     "static/media/People_frame.svg": "/APPy-family/static/media/People_frame.b3c67b4d70b12974c0622643c87b60d9.svg",
     "static/media/image 1.svg": "/APPy-family/static/media/image 1.12e95fe059a65394743ffc268acb67d7.svg",
     "static/media/Image-event-4.svg": "/APPy-family/static/media/Image-event-4.ffbeb02a4c79fd1e4ea080901ff3bed7.svg",
@@ -105,12 +105,12 @@
     "static/media/rectangle-56.svg": "/APPy-family/static/media/rectangle-56.bcdb7596433c013ff9a9.svg",
     "static/media/gridicons_dropdown.svg": "/APPy-family/static/media/gridicons_dropdown.7a58ae27ac25a82cbf179fbe377c4da3.svg",
     "static/media/send3.svg": "/APPy-family/static/media/send3.a5681aafd59eab7a41df66f90f5d4f87.svg",
-    "main.791a4be0.css.map": "/APPy-family/static/css/main.791a4be0.css.map",
-    "main.956f637d.js.map": "/APPy-family/static/js/main.956f637d.js.map",
-    "787.e1233e2d.chunk.js.map": "/APPy-family/static/js/787.e1233e2d.chunk.js.map"
+    "main.c0da0b06.css.map": "/APPy-family/static/css/main.c0da0b06.css.map",
+    "main.3d384586.js.map": "/APPy-family/static/js/main.3d384586.js.map",
+    "787.42a630e5.chunk.js.map": "/APPy-family/static/js/787.42a630e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.791a4be0.css",
-    "static/js/main.956f637d.js"
+    "static/css/main.c0da0b06.css",
+    "static/js/main.3d384586.js"
   ]
 }
