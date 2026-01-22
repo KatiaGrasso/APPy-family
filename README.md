@@ -120,4 +120,4 @@ The project is intended as a prototype, not a production-ready application
 ## Author
 
 Published on GitHub by Katia Grasso for professional purposes.
-Other projects and portfolio available at [Portfolio]([https://www.yourportfolio.com](https://katiagrasso.notion.site/Portfolio-2bda236ecdd28000b502dddcd2bb3f78))
+Other projects and portfolio available at [Portfolio](https://katiagrasso.notion.site/Portfolio-2bda236ecdd28000b502dddcd2bb3f78)
