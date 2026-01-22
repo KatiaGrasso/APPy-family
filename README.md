@@ -15,6 +15,8 @@ The goal of APPy Family is to reduce parents’ mental load by centralising:
 - shared calendars
 - local events and centres
 - community interaction
+- discovering and connecting with other parents or doctors
+- forum-style discussions
 
 The project prioritises **interaction design, information architecture, and usability**
 over production-level backend complexity.
@@ -25,7 +27,7 @@ over production-level backend complexity.
 
 The application was developed following a user-centred design process:
 - user needs identified through interviews and needfinding
-- iterative prototyping (paper → mid-fi → hi-fi)
+- iterative prototyping (low fi → mid-fi → hi-fi)
 - usability-driven refinements based on heuristic evaluation
 
 The final prototype explores how different features interact within a realistic mobile flow.
@@ -35,7 +37,7 @@ The final prototype explores how different features interact within a realistic 
 ## Key Features & Screens
 
 ### Home (Event Discovery)
-- Recommended and nearby events
+Browse content by Events (Recommended, Near Me), People, Forum, Centers
 - Contextual suggestions explaining why events are shown
 - Join / leave events directly from the feed
 - Local search and filtering
@@ -47,18 +49,21 @@ The final prototype explores how different features interact within a realistic 
 - Event creation via time-slot selection
 - Event details and participation management
 - Colour-coded categories for visual clarity
-
-### Community
+  
+### People
 - Browse and search other parents
-- Participate in blog/forum-style discussions
-- Create events or posts
-- Rank system based on user connections
+- View connections and follow status
+- Navigate to personal profiles
+
+### Forum / Blogs
+- Post and view discussion threads
+- Reply to posts with a live, interactive feed
+- LocalStorage persists posts and replies for testing and demonstration
 
 ### Profile
-- Personal information overview
-- Created and joined events
-- User-generated content (blogs, events)
-- Social ranking based on engagement
+- Overview of personal info, connections, and activity history
+- View and manage created or joined events
+- Track engagement and rank based on connections
 
 ### Global Navigation
 - Persistent top navigation for notifications and messages
