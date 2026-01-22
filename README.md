@@ -7,6 +7,7 @@ Originally developed as a university group project for the Human–Computer Inte
 this repository hosts the frontend implementation published for portfolio purposes.
 
 ---
+**Live demo (mobile recommended):** [Try it here](https://katiagrasso.github.io/APPy-family/)
 
 ## Project Focus
 
@@ -118,4 +119,5 @@ The project is intended as a prototype, not a production-ready application
 
 ## Author
 
-Published on GitHub by Katia Grasso for portfolio and professional purposes.
+Published on GitHub by Katia Grasso for professional purposes.
+Other projects and portfolio available at [Portfolio]([https://www.yourportfolio.com](https://katiagrasso.notion.site/Portfolio-2bda236ecdd28000b502dddcd2bb3f78))
