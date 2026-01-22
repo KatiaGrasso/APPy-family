@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# APPy Family
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mobile-first prototype designed to support parents in managing family activities,
+discovering local events, and building real-life connections with other caregivers.
 
-## Available Scripts
+Originally developed as a university group project for the Human–Computer Interaction course,
+this repository hosts the frontend implementation published for portfolio purposes.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Focus
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The goal of APPy Family is to reduce parents’ mental load by centralising:
+- children’s activities
+- shared calendars
+- local events and centres
+- community interaction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project prioritises **interaction design, information architecture, and usability**
+over production-level backend complexity.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Design Approach
 
-### `npm run build`
+The application was developed following a user-centred design process:
+- user needs identified through interviews and needfinding
+- iterative prototyping (paper → mid-fi → hi-fi)
+- usability-driven refinements based on heuristic evaluation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The final prototype explores how different features interact within a realistic mobile flow.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Key Features & Screens
 
-### `npm run eject`
+### Home (Event Discovery)
+- Recommended and nearby events
+- Contextual suggestions explaining why events are shown
+- Join / leave events directly from the feed
+- Local search and filtering
+- Actions reflected across the app (e.g. Calendar)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Calendar
+- Unified view of personal activities and joined events
+- Day / week / month views
+- Event creation via time-slot selection
+- Event details and participation management
+- Colour-coded categories for visual clarity
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Community
+- Browse and search other parents
+- Participate in blog/forum-style discussions
+- Create events or posts
+- Rank system based on user connections
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Profile
+- Personal information overview
+- Created and joined events
+- User-generated content (blogs, events)
+- Social ranking based on engagement
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Global Navigation
+- Persistent top navigation for notifications and messages
+- Bottom navigation optimised for mobile use
+- Consistent access to core features from all screens
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Data & Persistence
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+No real backend is implemented.
 
-### Code Splitting
+Application data is persisted using **localStorage** to simulate backend behaviour and enable:
+- state continuity across views
+- interaction testing
+- usability evaluation without server-side complexity
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This choice was intentional to keep the focus on UX, flows, and frontend logic.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tech Stack
 
-### Making a Progressive Web App
+- React
+- React Router
+- React Bootstrap
+- React Big Calendar
+- JavaScript (ES6)
+- CSS
+- LocalStorage (simulated persistence)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Running the Project Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm install
+npm start
 
-### Deployment
+The app runs in development mode at
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Notes
 
-### `npm run build` fails to minify
+The application is mobile-first and designed for smartphone usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desktop rendering is not optimised by design
+
+The project is intended as a prototype, not a production-ready application
+
+## Author
+
+Published on GitHub by Katia Grasso for portfolio and professional purposes.
